@@ -27,7 +27,7 @@ public class OnlineBillCheck extends AppCompatActivity {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_online_bill_check );
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-     // working   setTitle( "Hello" );
+
         Bundle extrass = getIntent().getExtras();
         if(extrass == null){
             title = null;
@@ -44,7 +44,7 @@ public class OnlineBillCheck extends AppCompatActivity {
             url = extras.getString( "url" );
         }
 
-        myWebView = (WebView) findViewById( R.id.webview );
+        myWebView =  findViewById( R.id.webview );
         myWebView.getSettings().setJavaScriptEnabled( true );
         myWebView.getSettings().setLoadWithOverviewMode( true );
         myWebView.getSettings().setUseWideViewPort( true );

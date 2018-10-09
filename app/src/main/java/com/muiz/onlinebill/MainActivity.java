@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         maAdView.loadAd(adRequest);
 
         Button sharebutton;
-        sharebutton = (Button)findViewById( R.id.share_button );
+        sharebutton = findViewById( R.id.share_button );
         sharebutton.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             }
         } );
 
-        mybutton = (Button)findViewById( R.id.pesco_bill_button );
+        mybutton = findViewById( R.id.pesco_bill_button );
         mybutton.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             }
         } );
 
-        buttoniesco = (Button)findViewById( R.id.iesco_bill_button );
+        buttoniesco = findViewById( R.id.iesco_bill_button );
         buttoniesco.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         } );
 
         Button buttonlesco;
-        buttonlesco = (Button)findViewById( R.id.lesco_bill_button );
+        buttonlesco = findViewById( R.id.lesco_bill_button );
         buttonlesco.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             }
         } );
         Button buttonkelectric;
-        buttonkelectric = (Button)findViewById( R.id.k_electric_bill_button );
+        buttonkelectric = findViewById( R.id.k_electric_bill_button );
         buttonkelectric.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         } );
 
         Button buttonqesco;
-        buttonqesco = (Button)findViewById( R.id.qesco_bill_button );
+        buttonqesco = findViewById( R.id.qesco_bill_button );
         buttonqesco.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         } );
 
         Button buttonmepco;
-        buttonqesco = (Button)findViewById( R.id.mepco_bill_button );
+        buttonqesco = findViewById( R.id.mepco_bill_button );
         buttonqesco.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
         } );
 
         Button buttonfesco;
-        buttonqesco = (Button)findViewById( R.id.fesco_bill_button );
+        buttonqesco = findViewById( R.id.fesco_bill_button );
         buttonqesco.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
         } );
 
         Button buttongepco;
-        buttonqesco = (Button)findViewById( R.id.gepco_bill_button );
+        buttonqesco = findViewById( R.id.gepco_bill_button );
         buttonqesco.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
         } );
 
         Button buttontesco;
-        buttonqesco = (Button)findViewById( R.id.tesco_bill_button );
+        buttonqesco = findViewById( R.id.tesco_bill_button );
         buttonqesco.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
             }
         } );
         Button buttonhesco;
-        buttonqesco = (Button)findViewById( R.id.hesco_bill_button );
+        buttonqesco = findViewById( R.id.hesco_bill_button );
         buttonqesco.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
