@@ -13,21 +13,17 @@ public class OnlineBillCheck extends AppCompatActivity {
     String url;
     String title;
 
-
-
     private class HelloWebViewClient extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
             return false;
         }
     }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_online_bill_check );
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         Bundle extrass = getIntent().getExtras();
         if(extrass == null){
             title = null;
@@ -35,15 +31,12 @@ public class OnlineBillCheck extends AppCompatActivity {
             title = extrass.getString( "title" );
         }
         setTitle( title );
-
-
         Bundle extras = getIntent().getExtras();
         if(extras == null){
             url = null;
         }else{
             url = extras.getString( "url" );
         }
-
         myWebView =  findViewById( R.id.webview );
         myWebView.getSettings().setJavaScriptEnabled( true );
         myWebView.getSettings().setLoadWithOverviewMode( true );
@@ -53,7 +46,5 @@ public class OnlineBillCheck extends AppCompatActivity {
         myWebView.setWebViewClient( new HelloWebViewClient() );
         myWebView.loadUrl( url );
     }
-
-
 }
 
