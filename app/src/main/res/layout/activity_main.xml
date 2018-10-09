@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/pesco_bill_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/pesco"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/iesco_bill_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="24dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/iesco"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pesco_bill_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pesco_bill_button" />
+
+    <Button
+        android:id="@+id/lesco_bill_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/lesco"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/pesco_bill_button"
+        app:layout_constraintTop_toBottomOf="@+id/pesco_bill_button" />
+
+    <Button
+        android:id="@+id/k_electric_bill_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/k_electric"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/lesco_bill_button"
+        app:layout_constraintEnd_toEndOf="@+id/iesco_bill_button"
+        app:layout_constraintTop_toTopOf="@+id/lesco_bill_button"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/qesco_bill_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/qesco"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/lesco_bill_button"
+        app:layout_constraintTop_toBottomOf="@+id/lesco_bill_button" />
+
+    <Button
+        android:id="@+id/mepco_bill_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/mepco"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/k_electric_bill_button"
+        app:layout_constraintBottom_toBottomOf="@+id/qesco_bill_button"
+        app:layout_constraintTop_toTopOf="@+id/qesco_bill_button"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="210dp" />
+
+    <Button
+        android:id="@+id/fesco_bill_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/fesco"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/qesco_bill_button"
+        app:layout_constraintTop_toBottomOf="@+id/qesco_bill_button" />
+
+    <Button
+        android:id="@+id/gepco_bill_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/gepco"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/mepco_bill_button"
+        app:layout_constraintBottom_toBottomOf="@+id/fesco_bill_button"
+        app:layout_constraintTop_toTopOf="@+id/fesco_bill_button"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="210dp" />
+
+    <Button
+        android:id="@+id/tesco_bill_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/tesco"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/fesco_bill_button"
+        app:layout_constraintTop_toBottomOf="@+id/fesco_bill_button" />
+
+    <Button
+        android:id="@+id/hesco_bill_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/hesco"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/gepco_bill_button"
+        app:layout_constraintBottom_toBottomOf="@+id/tesco_bill_button"
+        app:layout_constraintTop_toTopOf="@+id/tesco_bill_button"
+        tools:layout_editor_absoluteX="210dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_mainActivity1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="0dp"
+        ads:adSize="BANNER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/share_this_app"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/tesco_bill_button"
+        app:layout_constraintTop_toBottomOf="@+id/tesco_bill_button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="@string/more_apps"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/share_button"
+        app:layout_constraintEnd_toEndOf="@+id/hesco_bill_button"
+        app:layout_constraintTop_toTopOf="@+id/share_button" />
+
+</android.support.constraint.ConstraintLayout>

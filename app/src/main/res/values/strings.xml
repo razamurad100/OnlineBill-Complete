@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Online Bill</string>
+    <string name="pesco_bill">Pesco Bill</string>
+    <string name="pesco">Pesco</string>
+    <string name="iesco">IESCO</string>
+    <string name="lesco">Lesco</string>
+    <string name="k_electric">K-ELECTRIC</string>
+    <string name="qesco">QESCO</string>
+    <string name="mepco">MEPCO</string>
+    <string name="tesco">TESCO</string>
+    <string name="gepco">GEPCO</string>
+    <string name="hesco">HESCO</string>
+    <string name="fesco">FESCO</string>
+    <string name="share_this_app">Share this App</string>
+    <string name="more_apps">More Apps</string>
+</resources>
